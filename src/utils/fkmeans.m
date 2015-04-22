@@ -40,4 +40,4 @@ while length(unique(L)) ~= k
     
 end
 
-C = C';
+C = C'; % Added by Alan Qi
