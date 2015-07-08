@@ -1,7 +1,7 @@
 % param = [ln(sn);ln(ell);log(sf);B;ln(w)]
 % k(a,b) = sf^2 * exp(-0.5*(a-b)'*diag(1./ell.^2)*(a-b))
 % tilde_Kxx = Phi(x)*diag(w)*Phi(x)'
-% Phi(x) = Kxb*U*inv(Lambda), 
+% Phi(x) = Kxb*U, 
 % where U = Uq*inv(Lambda) and Uq*Lambda*Uq'= Kbb
 % 
 % Author: Hao Peng
